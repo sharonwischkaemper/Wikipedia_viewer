@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Wiki Viewer</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!--jumbotron-->
+    <div class="container-fluid">
+        <div class="jumbotron">
+            <h1>Wiki Viewer</h1>
+        </div>
+    </div>
+
+    <!--MainContainer-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4"></div>
+            <div  class="col-lg-4 "> 
+            <div id="input_div"  class="input-group input-group-lg">
+                <span id="btn_span" class="input-group-btn ">
+                    <button class="btn btn-default " type="button ">Go!</button>
+                    </span>
+                     <input type="text " class="form-control " placeholder="Search for... ">
+             </div> 
+       </div> 
+             <div class="col-lg-4"></div>
+   </div> 
+    </div> 
+  
+  <!--wiki articles-->
+   <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                 <section class='articles'>
+                     
+                 </section>
+            </div>
+          </div>
+      </div>
+           
+  
+ 
+
+
+
+
+        <script src="https://code.jquery.com/jquery-1.9.1.js " integrity="sha256-e9gNBsAcA0DBuRWbm0oZfbiCyhjLrI6bmqAl5o+ZjUA=" crossorigin="
+                anonymous "></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js " integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS "
+            crossorigin="anonymous "></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/javascript-state-machine/2.0.0/state-machine.min.js "></script>
+        <script src="/app.js "></script>
+</body>
+
+</html>
+
+<!--
+User Story: I can search Wikipedia entries in a search box and see the resulting Wikipedia entries.
+
+User Story: I can click a button to see a random Wikipedia entry.
+
+Hint #1: Here's a URL you can use to get a random Wikipedia article: https://en.wikipedia.org/wiki/Special:Random.
+
+Hint #2: Here's an entry on using Wikipedia's API: https://www.mediawiki.org/wiki/API:Main_page.
+
+Hint #3: Use this link to experiment with Wikipedia's API.
+
+Remember to use Read-Search-Ask if you get stuck.
+
+When you are finished, click the "I 've completed this challenge" button and include a link to your CodePen.
+
+You can get feedback on your project by sharing it with your friends on Facebook.-->
