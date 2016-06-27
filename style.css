@@ -6,3 +6,13 @@ h1{
   text-align: center;
   font-family: Lucida Console;
 }
+
+#btn_random_search{
+    font-family: Lucida Console;
+    font-size: 20px;
+    
+}
+
+#random_btn_text{
+  color: black;
+}
