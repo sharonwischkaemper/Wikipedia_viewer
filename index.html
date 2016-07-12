@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    
+
     <div class="container-fluid">
         <div class="jumbotron">
             <h1>Wiki Viewer</h1>
@@ -16,17 +16,19 @@
     </div>
 
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-4"></div>
-            <div class="col-lg-4 ">
-                <div id="input_div" class="input-group input-group-lg">
-                    <span class="input-group-btn"><button id="search_btn" class="btn btn-default" type="button">Go!</button></span>
-                    <input id="search_area" type="text" class="form-control">
+       
+        <form id="submit_form">
+            <div class="row">
+                <div class="col-lg-4"></div>
+                <div class="col-lg-4 ">
+                    <div id="input_div" class="input-group input-group-lg">
+                        <span class="input-group-btn"><button id="search_btn" class="btn btn-default" type="submit">Go!</button></span>
+                        <input id="search_area" type="text" class="form-control">
+                    </div>
                 </div>
+                <div class="col-lg-4"> </div>
             </div>
-            <div class="col-lg-4"> </div>
-        </div>
-
+         </form>
     </div>
     <div class="container-fluid">
         <div class="row ">
@@ -40,7 +42,7 @@
 
 
     <div class="container-fluid" id="wiki"></div>
- 
+
 
     <script src="https://code.jquery.com/jquery-1.9.1.js " integrity="sha256-e9gNBsAcA0DBuRWbm0oZfbiCyhjLrI6bmqAl5o+ZjUA=" crossorigin=" anonymous "></script>
     <script async src="//www.google-analytics.com/analytics.js"></script>
